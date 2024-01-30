@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto;
+            width:600px;
+            height:600px;
+        
+            display: grid;
+        
+        }
+        .main:hover{
+            row-gap: 5px;
+            column-gap: 5px;
+    
+        }
+        .one{
+            grid-column: 1/2;
+            grid-row: 1/3;
+        }
+        .two{
+            grid-column: 2/4;
+            grid-row: 1/2;
+        }
+        .five{
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        .six{
+            grid-column: 3/4;
+            grid-row: 2/4;
+        }
+        .seven{
+            grid-column: 1/3;
+            grid-row: 3/4;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div  class="one" style="background-color: brown;"></div>
+        <div class="two" style="background-color: blue;"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five" style="background-color:orange;"></div>
+        <div class="six" style="background-color:yellowgreen"></div>
+        <div class="seven" style="background-color: purple;"></div>
+        <div class="eight"></div>
+        <div class="nine"></div>
+        
+    </div>
+</body>
+</html>
